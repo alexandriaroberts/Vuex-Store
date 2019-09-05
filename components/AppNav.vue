@@ -6,8 +6,8 @@
         <li>
           <nuxt-link exact to="/">Shop</nuxt-link>
         </li>
-       
-        <li>          
+
+        <li>
           <nuxt-link to="/cart">Cart</nuxt-link>
         </li>
       </ul>
@@ -16,18 +16,15 @@
 </template>
 
 <script>
-
-export default {
-
-};
+export default {};
 </script>
 <style lang="scss" scoped>
 header {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    padding: 50px 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  padding: 50px 50px 0;
 }
 
 nav {
@@ -41,12 +38,14 @@ nav {
     padding-left: 0;
     li {
       display: inline;
+      list-style-type: none;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      font-size: 13px;
+      font-size: 16px;
       padding: 0 20px;
       position: relative;
       a {
+        text-decoration: none;
         color: black;
         &:hover {
           color: #2e882e;
@@ -55,6 +54,5 @@ nav {
     }
   }
 }
-
 </style>>
 
