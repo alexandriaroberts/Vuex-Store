@@ -1,0 +1,1 @@
+import data from "@/static/storeData.json"
