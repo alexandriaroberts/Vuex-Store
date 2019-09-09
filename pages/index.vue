@@ -3,7 +3,7 @@
     <div>
       <!-- <logo /> -->
       <AppNav />
-     
+      <AppStore :data="storedata" />
     </div>
   </div>
 </template>
@@ -11,12 +11,19 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import AppNav from '~/components/AppNav.vue'
-
+import AppStore from '~/components/AppStore.vue'
+import { mapState } from "vuex";
 export default {
   components: {
     Logo,
-    AppNav
+    AppNav,
+    AppStore
+  },
+   computed: {
+    ...mapState(["storedata"])
+    
   }
+ 
 }
 </script>
 
