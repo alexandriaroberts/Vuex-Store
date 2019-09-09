@@ -1,71 +1,62 @@
-[{
-    "chair": {
-      "id": 1,
-      "model": "Cloris Stirgess",
-      "modelYear": "PHP",
-      "description": "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at"
-    }
-  }, {
-    "chair": {
-      "id": 2,
-      "model": "Kermie Acheson",                        
-      "modelYear": "CNY",
-      "description": "ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius"
-    }
-  }, {
-    "chair": {
-      "id": 3,
-      "model": "Karyn Kendell",
-      "modelYear": "BRL",
-      "description": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio"
-    }
-  }, {
-    "chair": {
-      "id": 4,
-      "model": "Dalston Penney",
-      "modelYear": "CNY",
-      "description": "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc"
-    }
-  }, {
-    "chair": {
-      "id": 5,
-      "model": "Arly Hoy",
-      "modelYear": "ZAR",
-      "description": "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla"
-    }
-  }, {
-    "chair": {
-      "id": 6,
-      "model": "Jany Temperley",
-      "modelYear": "CUP",
-      "description": "justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat"
-    }
-  }, {
-    "chair": {
-      "id": 7,
-      "model": "Kariotta Gunn",
-      "modelYear": "PLN",
-      "description": "justo in hac habitasse platea dictumst etiam faucibus cursus urna"
-    }
-  }, {
-    "chair": {
-      "id": 8,
-      "model": "Omero Couttes",
-      "modelYear": "UAH",
-      "description": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi"
-    }
-  }, {
-    "chair": {
-      "id": 9,
-      "model": "Gardner Jirick",
-      "modelYear": "CNY",
-      "description": "aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus"
-    }
-  }, {
-    "chair": {
-      "id": 10,
-      "model": "Trumaine Stillert",
-      "modelYear": "SEK",
-      "description": "iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque"
-    }
-  }]
+[
+  {
+    "id": 1,
+    "model": "Cloris Stirgess",
+    "modelYear": "PHP",
+    "description": "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at"
+  },
+  {
+    "id": 2,
+    "model": "Kermie Acheson",
+    "modelYear": "CNY",
+    "description": "ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius"
+  },
+  {
+    "id": 3,
+    "model": "Karyn Kendell",
+    "modelYear": "BRL",
+    "description": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio"
+  },
+  {
+    "id": 4,
+    "model": "Dalston Penney",
+    "modelYear": "CNY",
+    "description": "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc"
+  },
+  {
+    "id": 5,
+    "model": "Arly Hoy",
+    "modelYear": "ZAR",
+    "description": "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla"
+  },
+  {
+    "id": 6,
+    "model": "Jany Temperley",
+    "modelYear": "CUP",
+    "description": "justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat"
+  },
+  {
+    "id": 7,
+    "model": "Kariotta Gunn",
+    "modelYear": "PLN",
+    "description": "justo in hac habitasse platea dictumst etiam faucibus cursus urna"
+  },
+  {
+    "id": 8,
+    "model": "Omero Couttes",
+    "modelYear": "UAH",
+    "description": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi"
+  },
+  {
+    "id": 9,
+    "model": "Gardner Jirick",
+    "modelYear": "CNY",
+    "description": "aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus"
+  },
+  {
+    "id": 10,
+    "model": "Trumaine Stillert",
+    "modelYear": "SEK",
+    "description": "iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque"
+  }
+]

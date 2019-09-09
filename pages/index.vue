@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <!-- <logo /> -->
       <AppNav />
       <AppStore :data="storedata" />
     </div>
@@ -9,13 +8,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 import AppNav from '~/components/AppNav.vue'
-import AppStore from '~/components/AppStore.vue'
 import { mapState } from "vuex";
+import AppStore from '~/components/AppStore.vue'
 export default {
   components: {
-    Logo,
     AppNav,
     AppStore
   },
