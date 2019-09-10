@@ -1,11 +1,10 @@
 <template>
   <div>
     <ul>
-      <li v-for="product in products" :key="product.id">
+      <li v-for="product in products" :key="product.id" class="product">
         <span>{{ product.id }}</span>
         <p>{{ product.model }}</p>
         <p>{{ product.description }}</p>
-        
       </li>
     </ul>
   </div>
@@ -26,4 +25,12 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.product {
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
 </style>
